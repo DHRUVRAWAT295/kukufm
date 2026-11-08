@@ -1,0 +1,69 @@
+{
+  "model": "gemini / gemini-3.8-flash",
+  "today": "2026-11-08",
+  "final_case": {
+    "in_scope": true,
+    "problem_type": "not_delivered",
+    "product": "watch",
+    "platform": "Instagram",
+    "seller": null,
+    "order_id": null,
+    "invoice_number": null,
+    "order_date": "2026-10-20",
+    "delivery_date": null,
+    "amount_paid": 4000,
+    "complained_to_platform": null,
+    "complaint_date": null,
+    "platform_response": null,
+    "relief_wanted": null,
+    "evidence": null,
+    "user_district": null,
+    "user_state": null,
+    "complainant_name": null,
+    "complainant_address": null,
+    "fraud_suspected": true
+  },
+  "stage": "stopped",
+  "notice": null,
+  "turns": [
+    {
+      "turn": 1,
+      "user": "A seller on Instagram asked me to pay 4,000 by UPI for a watch on 20 October 2026. After I paid they blocked me and the page is gone.",
+      "stage_before": "intake",
+      "llm_extract_raw": "{\n  \"in_scope\": true,\n  \"problem_type\": \"not_delivered\",\n  \"product\": \"watch\",\n  \"platform\": \"Instagram\",\n  \"order_date\": \"2026-10-20\",\n  \"amount_paid\": 4000,\n  \"fraud_suspected\": true\n}",
+      "rejected": {},
+      "reply": "**This looks like fraud, not a refund dispute.** If money was taken through a scam, call your bank first so it can try to freeze the payment, then call the cyber fraud helpline 1930 and file a complaint at cybercrime.gov.in. Please also speak to a lawyer. This tool handles only ordinary refund disputes.\n\nI can't take this case further here.",
+      "alerts": [
+        {
+          "level": "stop",
+          "code": "POSSIBLE_CRIME",
+          "title": "This looks like fraud, not a refund dispute",
+          "message": "If money was taken through a scam, call your bank first so it can try to freeze the payment, then call the cyber fraud helpline 1930 and file a complaint at cybercrime.gov.in. Please also speak to a lawyer. This tool handles only ordinary refund disputes."
+        }
+      ],
+      "case_after": {
+        "in_scope": true,
+        "problem_type": "not_delivered",
+        "product": "watch",
+        "platform": "Instagram",
+        "seller": null,
+        "order_id": null,
+        "invoice_number": null,
+        "order_date": "2026-10-20",
+        "delivery_date": null,
+        "amount_paid": 4000,
+        "complained_to_platform": null,
+        "complaint_date": null,
+        "platform_response": null,
+        "relief_wanted": null,
+        "evidence": null,
+        "user_district": null,
+        "user_state": null,
+        "complainant_name": null,
+        "complainant_address": null,
+        "fraud_suspected": true
+      },
+      "stage_after": "stopped"
+    }
+  ]
+}

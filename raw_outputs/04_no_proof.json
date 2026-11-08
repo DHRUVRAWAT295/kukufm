@@ -1,0 +1,110 @@
+{
+  "model": "gemini / gemini-3.8-flash",
+  "today": "2026-11-08",
+  "final_case": {
+    "in_scope": true,
+    "problem_type": "defective",
+    "product": "earphones",
+    "platform": "Meesho",
+    "seller": null,
+    "order_id": null,
+    "invoice_number": null,
+    "order_date": "2026-09-05",
+    "delivery_date": null,
+    "amount_paid": 899,
+    "complained_to_platform": false,
+    "complaint_date": null,
+    "platform_response": null,
+    "relief_wanted": null,
+    "evidence": [],
+    "user_district": "Patna",
+    "user_state": "Bihar",
+    "complainant_name": null,
+    "complainant_address": null,
+    "fraud_suspected": null
+  },
+  "stage": "notice_details",
+  "notice": null,
+  "turns": [
+    {
+      "turn": 1,
+      "user": "I bought earphones on Meesho on 5 September 2026 for 899 rupees. They don't work. I deleted the app and don't have any invoice or screenshots.",
+      "stage_before": "intake",
+      "llm_extract_raw": "{\n  \"in_scope\": true,\n  \"problem_type\": \"defective\",\n  \"product\": \"earphones\",\n  \"platform\": \"Meesho\",\n  \"order_date\": \"2026-09-05\",\n  \"amount_paid\": 899,\n  \"evidence\": []\n}",
+      "rejected": {},
+      "reply": "1. Have you already complained to the platform or seller? If yes, what did they say?\n2. Which district and state do you live in?",
+      "alerts": [
+        {
+          "level": "warning",
+          "code": "NO_EVIDENCE",
+          "title": "You have no proof yet",
+          "message": "Without an invoice, order email or screenshots your case will be hard to prove. Check your email and the app's order history for the invoice before sending a notice."
+        }
+      ],
+      "case_after": {
+        "in_scope": true,
+        "problem_type": "defective",
+        "product": "earphones",
+        "platform": "Meesho",
+        "seller": null,
+        "order_id": null,
+        "invoice_number": null,
+        "order_date": "2026-09-05",
+        "delivery_date": null,
+        "amount_paid": 899,
+        "complained_to_platform": null,
+        "complaint_date": null,
+        "platform_response": null,
+        "relief_wanted": null,
+        "evidence": [],
+        "user_district": null,
+        "user_state": null,
+        "complainant_name": null,
+        "complainant_address": null,
+        "fraud_suspected": null
+      },
+      "stage_after": "intake"
+    },
+    {
+      "turn": 2,
+      "user": "I haven't complained yet. I live in Patna, Bihar.",
+      "stage_before": "intake",
+      "llm_extract_raw": "{\"complained_to_platform\": false, \"user_district\": \"Patna\", \"user_state\": \"Bihar\"}",
+      "rejected": {},
+      "llm_explain_raw": "You bought defective earphones on Meesho for Rs 899. You have not raised a complaint with Meesho yet. Your first step is to complain to Meesho directly. Under \"Rule 4(5) of the Consumer Protection (E-Commerce) Rules, 2020\", the platform's grievance officer must acknowledge your complaint within 48 hours and resolve it within one month. You can ask to replace the product or refund the full price.\n\nIf they do not resolve the issue, your case goes to the District Consumer Disputes Redressal Commission under \"the Consumer Protection (Jurisdiction) Rules, 2021\". Under \"Section 35 of the Consumer Protection Act, 2019\", you can file the complaint yourself without hiring a lawyer. Under \"Section 39 of the Consumer Protection Act, 2019\", the commission can order the earphones replaced or the price refunded. Under \"Section 69 of the Consumer Protection Act, 2019\", you have two years to file.",
+      "explain_problems": [],
+      "reply": "**Where you stand**\n\nYou bought defective earphones on Meesho for Rs 899. You have not raised a complaint with Meesho yet. Your first step is to complain to Meesho directly. Under \"Rule 4(5) of the Consumer Protection (E-Commerce) Rules, 2020\", the platform's grievance officer must acknowledge your complaint within 48 hours and resolve it within one month. You can ask to replace the product or refund the full price. If they do not resolve the issue, your case goes to the District Consumer Disputes Redressal Commission under \"the Consumer Protection (Jurisdiction) Rules, 2021\". Under \"Section 35 of the Consumer Protection Act, 2019\", you can file the complaint yourself without hiring a lawyer. Under \"Section 39 of the Consumer Protection Act, 2019\", the commission can order the earphones replaced or the price refunded. Under \"Section 69 of the Consumer Protection Act, 2019\", you have two years to file.\n\n**Your next step:** Write to the grievance officer of Meesho first (their contact is on the website, usually under 'Grievance Redressal'). They must acknowledge within 48 hours and resolve it within one month. If they don't, send the legal notice. I can draft the notice now so it's ready.\n\n**Where a complaint would go:** District Consumer Disputes Redressal Commission for Patna. You can file online at e-jagriti.gov.in.\n\n**To draft your legal notice I need a few details.**\n\n1. What is your full name?\n2. What is your postal address? It goes at the top of the notice.\n3. What is the seller's name? It's usually printed on the invoice. Say 'not sure' if you can't find it.",
+      "alerts": [
+        {
+          "level": "warning",
+          "code": "NO_EVIDENCE",
+          "title": "You have no proof yet",
+          "message": "Without an invoice, order email or screenshots your case will be hard to prove. Check your email and the app's order history for the invoice before sending a notice."
+        }
+      ],
+      "case_after": {
+        "in_scope": true,
+        "problem_type": "defective",
+        "product": "earphones",
+        "platform": "Meesho",
+        "seller": null,
+        "order_id": null,
+        "invoice_number": null,
+        "order_date": "2026-09-05",
+        "delivery_date": null,
+        "amount_paid": 899,
+        "complained_to_platform": false,
+        "complaint_date": null,
+        "platform_response": null,
+        "relief_wanted": null,
+        "evidence": [],
+        "user_district": "Patna",
+        "user_state": "Bihar",
+        "complainant_name": null,
+        "complainant_address": null,
+        "fraud_suspected": null
+      },
+      "stage_after": "notice_details"
+    }
+  ]
+}

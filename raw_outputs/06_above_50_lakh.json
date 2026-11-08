@@ -1,0 +1,69 @@
+{
+  "model": "gemini / gemini-3.8-flash",
+  "today": "2026-11-08",
+  "final_case": {
+    "in_scope": true,
+    "problem_type": "not_delivered",
+    "product": "industrial machinery",
+    "platform": null,
+    "seller": null,
+    "order_id": null,
+    "invoice_number": null,
+    "order_date": "2026-06-01",
+    "delivery_date": null,
+    "amount_paid": 7500000,
+    "complained_to_platform": null,
+    "complaint_date": null,
+    "platform_response": null,
+    "relief_wanted": null,
+    "evidence": null,
+    "user_district": null,
+    "user_state": null,
+    "complainant_name": null,
+    "complainant_address": null,
+    "fraud_suspected": null
+  },
+  "stage": "stopped",
+  "notice": null,
+  "turns": [
+    {
+      "turn": 1,
+      "user": "I ordered industrial machinery from an online B2B site on 1 June 2026 and paid 75 lakh rupees. It was never delivered.",
+      "stage_before": "intake",
+      "llm_extract_raw": "{\n  \"in_scope\": true,\n  \"problem_type\": \"not_delivered\",\n  \"product\": \"industrial machinery\",\n  \"order_date\": \"2026-06-01\",\n  \"amount_paid\": 7500000\n}",
+      "rejected": {},
+      "reply": "**Amount above ₹50 lakh.** Cases above ₹50 lakh go to the State or National Commission and are outside what this tool covers. Please speak to a consumer lawyer or your District Legal Services Authority.\n\nI can't take this case further here.",
+      "alerts": [
+        {
+          "level": "stop",
+          "code": "AMOUNT_ABOVE_SCOPE",
+          "title": "Amount above ₹50 lakh",
+          "message": "Cases above ₹50 lakh go to the State or National Commission and are outside what this tool covers. Please speak to a consumer lawyer or your District Legal Services Authority."
+        }
+      ],
+      "case_after": {
+        "in_scope": true,
+        "problem_type": "not_delivered",
+        "product": "industrial machinery",
+        "platform": null,
+        "seller": null,
+        "order_id": null,
+        "invoice_number": null,
+        "order_date": "2026-06-01",
+        "delivery_date": null,
+        "amount_paid": 7500000,
+        "complained_to_platform": null,
+        "complaint_date": null,
+        "platform_response": null,
+        "relief_wanted": null,
+        "evidence": null,
+        "user_district": null,
+        "user_state": null,
+        "complainant_name": null,
+        "complainant_address": null,
+        "fraud_suspected": null
+      },
+      "stage_after": "stopped"
+    }
+  ]
+}

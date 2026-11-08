@@ -1,0 +1,69 @@
+{
+  "model": "groq / openai/gpt-oss-120b",
+  "today": "2026-11-08",
+  "final_case": {
+    "in_scope": false,
+    "problem_type": null,
+    "product": null,
+    "platform": null,
+    "seller": null,
+    "order_id": null,
+    "invoice_number": null,
+    "order_date": null,
+    "delivery_date": null,
+    "amount_paid": null,
+    "complained_to_platform": null,
+    "complaint_date": null,
+    "platform_response": null,
+    "relief_wanted": null,
+    "evidence": null,
+    "user_district": null,
+    "user_state": null,
+    "complainant_name": null,
+    "complainant_address": null,
+    "fraud_suspected": null
+  },
+  "stage": "stopped",
+  "notice": null,
+  "turns": [
+    {
+      "turn": 1,
+      "user": "My landlord in Noida is not returning my security deposit of 30,000 after I vacated the flat.",
+      "stage_before": "intake",
+      "llm_extract_raw": "{\"in_scope\":false}",
+      "rejected": {},
+      "reply": "**This is outside what I can help with.** I only help with things bought online that were defective, wrong, not delivered or not refunded. For other legal problems, your District Legal Services Authority offers free legal help.\n\nI can't take this case further here.",
+      "alerts": [
+        {
+          "level": "stop",
+          "code": "OUT_OF_SCOPE",
+          "title": "This is outside what I can help with",
+          "message": "I only help with things bought online that were defective, wrong, not delivered or not refunded. For other legal problems, your District Legal Services Authority offers free legal help."
+        }
+      ],
+      "case_after": {
+        "in_scope": false,
+        "problem_type": null,
+        "product": null,
+        "platform": null,
+        "seller": null,
+        "order_id": null,
+        "invoice_number": null,
+        "order_date": null,
+        "delivery_date": null,
+        "amount_paid": null,
+        "complained_to_platform": null,
+        "complaint_date": null,
+        "platform_response": null,
+        "relief_wanted": null,
+        "evidence": null,
+        "user_district": null,
+        "user_state": null,
+        "complainant_name": null,
+        "complainant_address": null,
+        "fraud_suspected": null
+      },
+      "stage_after": "stopped"
+    }
+  ]
+}

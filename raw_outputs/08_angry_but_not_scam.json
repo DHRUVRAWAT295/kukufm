@@ -1,0 +1,119 @@
+{
+  "model": "groq / openai/gpt-oss-120b",
+  "today": "2026-11-08",
+  "final_case": {
+    "in_scope": true,
+    "problem_type": "refund_not_paid",
+    "product": "kettle",
+    "platform": "Amazon",
+    "seller": null,
+    "order_id": null,
+    "invoice_number": null,
+    "order_date": "2026-10-01",
+    "delivery_date": null,
+    "amount_paid": 1299,
+    "complained_to_platform": true,
+    "complaint_date": "2026-11-08",
+    "platform_response": "unknown",
+    "relief_wanted": "refund",
+    "evidence": [
+      "invoice",
+      "return receipt"
+    ],
+    "user_district": "Varanasi",
+    "user_state": "Uttar Pradesh",
+    "complainant_name": null,
+    "complainant_address": null,
+    "fraud_suspected": null
+  },
+  "stage": "notice_details",
+  "notice": null,
+  "turns": [
+    {
+      "turn": 1,
+      "user": "Amazon is a total fraud! I returned a kettle bought on 1 October 2026 for 1,299 and the refund still hasn't come. I have the invoice and return receipt.",
+      "stage_before": "intake",
+      "llm_extract_raw": "{\"in_scope\":true,\"problem_type\":\"refund_not_paid\",\"product\":\"kettle\",\"platform\":\"Amazon\",\"order_date\":\"2026-10-01\",\"complaint_date\":\"2026-11-08\",\"amount_paid\":1299,\"relief_wanted\":\"refund\",\"evidence\":[\"invoice\",\"return receipt\"]}",
+      "rejected": {},
+      "reply": "1. Have you already complained to the platform or seller? If yes, what did they say?\n2. Which district and state do you live in?",
+      "alerts": [
+        {
+          "level": "warning",
+          "code": "FRAUD_WORDS",
+          "title": "Check: is this a scam?",
+          "message": "You used words like 'fraud' or 'scam'. If someone tricked you into paying (a fake seller, a request for your OTP or UPI PIN, money taken without permission), stop here: call your bank, then 1930, and report at cybercrime.gov.in. If it's an ordinary refund problem with a real platform, carry on."
+        }
+      ],
+      "case_after": {
+        "in_scope": true,
+        "problem_type": "refund_not_paid",
+        "product": "kettle",
+        "platform": "Amazon",
+        "seller": null,
+        "order_id": null,
+        "invoice_number": null,
+        "order_date": "2026-10-01",
+        "delivery_date": null,
+        "amount_paid": 1299,
+        "complained_to_platform": null,
+        "complaint_date": "2026-11-08",
+        "platform_response": null,
+        "relief_wanted": "refund",
+        "evidence": [
+          "invoice",
+          "return receipt"
+        ],
+        "user_district": null,
+        "user_state": null,
+        "complainant_name": null,
+        "complainant_address": null,
+        "fraud_suspected": null
+      },
+      "stage_after": "intake"
+    },
+    {
+      "turn": 2,
+      "user": "Yes, I complained on 15 October 2026. I'm in Varanasi, Uttar Pradesh.",
+      "stage_before": "intake",
+      "llm_extract_raw": "{\"complained_to_platform\":true,\"platform_response\":\"unknown\",\"user_district\":\"Varanasi\",\"user_state\":\"Uttar Pradesh\"}",
+      "rejected": {},
+      "llm_explain_raw": "You bought a kettle on Amazon on 1 Oct 2026 and asked the platform for a refund on 8 Nov 2026. You have the invoice and the return receipt as proof. Because the amount is below Rs 50 lakh, the case will be heard by the District Consumer Disputes Redressal Commission. You may file the complaint yourself; a lawyer is not required — cite exactly as \"Section 35 of the Consumer Protection Act, 2019\". You can file it in Varanasi, the district where you live — cite exactly as \"Section 34 of the Consumer Protection Act, 2019\". The complaint is well within the two‑year limit — cite exactly as \"Section 69 of the Consumer Protection Act, 2019\". If the commission finds the refund is due, it can order the refund and any compensation — cite exactly as \"Section 39 of the Consumer Protection Act, 2019\". This next step is the proper way to seek the money you paid.",
+      "explain_problems": [],
+      "reply": "**Where you stand**\n\nYou bought a kettle on Amazon on 1 Oct 2026 and asked the platform for a refund on 8 Nov 2026. You have the invoice and the return receipt as proof. Because the amount is below Rs 50 lakh, the case will be heard by the District Consumer Disputes Redressal Commission. You may file the complaint yourself; a lawyer is not required — cite exactly as \"Section 35 of the Consumer Protection Act, 2019\". You can file it in Varanasi, the district where you live — cite exactly as \"Section 34 of the Consumer Protection Act, 2019\". The complaint is well within the two‑year limit — cite exactly as \"Section 69 of the Consumer Protection Act, 2019\". If the commission finds the refund is due, it can order the refund and any compensation — cite exactly as \"Section 39 of the Consumer Protection Act, 2019\". This next step is the proper way to seek the money you paid.\n\n**Your next step:** The platform's one-month period ends on 8 December 2026. If it isn't fixed by then, send the legal notice. I can draft it now so it's ready.\n\n**Where a complaint would go:** District Consumer Disputes Redressal Commission for Varanasi. You can file online at e-jagriti.gov.in.\n\n**To draft your legal notice I need a few details.**\n\n1. What is your full name?\n2. What is your postal address? It goes at the top of the notice.\n3. What is the seller's name? It's usually printed on the invoice. Say 'not sure' if you can't find it.",
+      "alerts": [
+        {
+          "level": "warning",
+          "code": "FRAUD_WORDS",
+          "title": "Check: is this a scam?",
+          "message": "You used words like 'fraud' or 'scam'. If someone tricked you into paying (a fake seller, a request for your OTP or UPI PIN, money taken without permission), stop here: call your bank, then 1930, and report at cybercrime.gov.in. If it's an ordinary refund problem with a real platform, carry on."
+        }
+      ],
+      "case_after": {
+        "in_scope": true,
+        "problem_type": "refund_not_paid",
+        "product": "kettle",
+        "platform": "Amazon",
+        "seller": null,
+        "order_id": null,
+        "invoice_number": null,
+        "order_date": "2026-10-01",
+        "delivery_date": null,
+        "amount_paid": 1299,
+        "complained_to_platform": true,
+        "complaint_date": "2026-11-08",
+        "platform_response": "unknown",
+        "relief_wanted": "refund",
+        "evidence": [
+          "invoice",
+          "return receipt"
+        ],
+        "user_district": "Varanasi",
+        "user_state": "Uttar Pradesh",
+        "complainant_name": null,
+        "complainant_address": null,
+        "fraud_suspected": null
+      },
+      "stage_after": "notice_details"
+    }
+  ]
+}

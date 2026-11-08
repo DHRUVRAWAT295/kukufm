@@ -1,0 +1,73 @@
+{
+  "model": "gemini / gemini-3.8-flash",
+  "today": "2026-11-08",
+  "final_case": {
+    "in_scope": true,
+    "problem_type": "not_delivered",
+    "product": "mixer grinder",
+    "platform": "Flipkart",
+    "seller": "HomeKart",
+    "order_id": "OD1234567890",
+    "invoice_number": null,
+    "order_date": "2026-08-02",
+    "delivery_date": null,
+    "amount_paid": 3499,
+    "complained_to_platform": true,
+    "complaint_date": "2026-08-10",
+    "platform_response": "closed the ticket",
+    "relief_wanted": null,
+    "evidence": [
+      "order email",
+      "chat screenshots"
+    ],
+    "user_district": "Lucknow",
+    "user_state": "Uttar Pradesh",
+    "complainant_name": "Priya Singh",
+    "complainant_address": "4 MG Road, Lucknow, Uttar Pradesh",
+    "fraud_suspected": null
+  },
+  "stage": "done",
+  "notice": "LEGAL NOTICE\n\nDate: 8 November 2026\n\nFrom: Priya Singh\n4 MG Road, Lucknow, Uttar Pradesh\n\nTo:\n1. HomeKart (seller of the product)\n2. The Grievance Officer, Flipkart\n\nSubject: Unresolved consumer complaint about mixer grinder (reference OD1234567890)\n\nSir/Madam,\n\nI, Priya Singh, residing at 4 MG Road, Lucknow, Uttar Pradesh, purchased a mixer grinder from the seller HomeKart on Flipkart on 2 August 2026 under order ID OD1234567890. I made the payment of ₹3,499 for the said product. However, the ordered mixer grinder has not been delivered to me. Aggrieved by this non-delivery, I lodged a formal complaint on Flipkart on 10 August 2026. Despite my grievance, Flipkart closed the ticket without delivering the item or resolving the issue. I possess all supporting evidence, including the order email and chat screenshots, confirming the transaction and my communications regarding the order.\n\nUnder Rule 4(5) of the Consumer Protection (E-Commerce) Rules, 2020, the grievance officer of Flipkart was required to acknowledge my complaint within 48 hours and resolve it within one month. This has not happened.\n\nI therefore call upon you to refund the full price of ₹3,499 within 15 days of receiving this notice. If you fail to do so, I will file a complaint before the District Consumer Disputes Redressal Commission, Lucknow, Uttar Pradesh, under the Consumer Protection Act, 2019, seeking this relief along with compensation and costs, without further notice to you.\n\nEnclosures: Order email; Chat screenshots\n\nYours faithfully,\n\nPriya Singh",
+  "turns": [
+    {
+      "turn": 1,
+      "user": "I'm Priya Singh, 4 MG Road, Lucknow, Uttar Pradesh. I ordered a mixer grinder on Flipkart on 2 August 2026 for 3,499 rupees, order OD1234567890. It never arrived but shows delivered. I complained on 10 August and they closed the ticket. I have the order email and chat screenshots. Seller is HomeKart.",
+      "stage_before": "intake",
+      "llm_extract_raw": "{\n  \"in_scope\": true,\n  \"problem_type\": \"not_delivered\",\n  \"product\": \"mixer grinder\",\n  \"platform\": \"Flipkart\",\n  \"seller\": \"HomeKart\",\n  \"order_id\": \"OD1234567890\",\n  \"order_date\": \"2026-08-02\",\n  \"complaint_date\": \"2026-08-10\",\n  \"amount_paid\": 3499,\n  \"complained_to_platform\": true,\n  \"platform_response\": \"closed the ticket\",\n  \"evidence\": [\n    \"order email\",\n    \"chat screenshots\"\n  ],\n  \"user_district\": \"Lucknow\",\n  \"user_state\": \"Uttar Pradesh\",\n  \"complainant_name\": \"Priya Singh\",\n  \"complainant_address\": \"4 MG Road, Lucknow, Uttar Pradesh\"\n}",
+      "rejected": {},
+      "llm_explain_raw": "You paid Rs 3499 for a mixer grinder on Flipkart, but it was not delivered. You raised a complaint, but Flipkart closed the ticket. Under Rule 4(5) of the Consumer Protection (E-Commerce) Rules, 2020, the platform had a duty to respond and resolve your issue. Sending a notice is the next step to demand a refund of the full price. \n\nIf they do not resolve it, your case goes to the District Consumer Disputes Redressal Commission under the Consumer Protection (Jurisdiction) Rules, 2021. Under Section 35 of the Consumer Protection Act, 2019, you can file the complaint yourself without a lawyer. Under Section 39 of the Consumer Protection Act, 2019, the commission can order the price to be refunded. You have two years from the problem date to file under Section 69 of the Consumer Protection Act, 2019.",
+      "explain_problems": [],
+      "llm_facts_raw": "I, Priya Singh, residing at 4 MG Road, Lucknow, Uttar Pradesh, purchased a mixer grinder from the seller HomeKart on Flipkart on 2 August 2026 under order ID OD1234567890. I made the payment of ₹3,499 for the said product. However, the ordered mixer grinder has not been delivered to me. Aggrieved by this non-delivery, I lodged a formal complaint on Flipkart on 10 August 2026. Despite my grievance, Flipkart closed the ticket without delivering the item or resolving the issue. I possess all supporting evidence, including the order email and chat screenshots, confirming the transaction and my communications regarding the order.",
+      "facts_problems": [],
+      "notice_problems": [],
+      "reply": "**Where you stand**\n\nYou paid Rs 3499 for a mixer grinder on Flipkart, but it was not delivered. You raised a complaint, but Flipkart closed the ticket. Under Rule 4(5) of the Consumer Protection (E-Commerce) Rules, 2020, the platform had a duty to respond and resolve your issue. Sending a notice is the next step to demand a refund of the full price. If they do not resolve it, your case goes to the District Consumer Disputes Redressal Commission under the Consumer Protection (Jurisdiction) Rules, 2021. Under Section 35 of the Consumer Protection Act, 2019, you can file the complaint yourself without a lawyer. Under Section 39 of the Consumer Protection Act, 2019, the commission can order the price to be refunded. You have two years from the problem date to file under Section 69 of the Consumer Protection Act, 2019.\n\n**Your next step:** The platform's one-month period has passed. The next step is a legal notice to the seller and the platform.\n\n**Where a complaint would go:** District Consumer Disputes Redressal Commission for Lucknow. You can file online at e-jagriti.gov.in.\n\n**Your draft legal notice**\n\n```\nLEGAL NOTICE\n\nDate: 8 November 2026\n\nFrom: Priya Singh\n4 MG Road, Lucknow, Uttar Pradesh\n\nTo:\n1. HomeKart (seller of the product)\n2. The Grievance Officer, Flipkart\n\nSubject: Unresolved consumer complaint about mixer grinder (reference OD1234567890)\n\nSir/Madam,\n\nI, Priya Singh, residing at 4 MG Road, Lucknow, Uttar Pradesh, purchased a mixer grinder from the seller HomeKart on Flipkart on 2 August 2026 under order ID OD1234567890. I made the payment of ₹3,499 for the said product. However, the ordered mixer grinder has not been delivered to me. Aggrieved by this non-delivery, I lodged a formal complaint on Flipkart on 10 August 2026. Despite my grievance, Flipkart closed the ticket without delivering the item or resolving the issue. I possess all supporting evidence, including the order email and chat screenshots, confirming the transaction and my communications regarding the order.\n\nUnder Rule 4(5) of the Consumer Protection (E-Commerce) Rules, 2020, the grievance officer of Flipkart was required to acknowledge my complaint within 48 hours and resolve it within one month. This has not happened.\n\nI therefore call upon you to refund the full price of ₹3,499 within 15 days of receiving this notice. If you fail to do so, I will file a complaint before the District Consumer Disputes Redressal Commission, Lucknow, Uttar Pradesh, under the Consumer Protection Act, 2019, seeking this relief along with compensation and costs, without further notice to you.\n\nEnclosures: Order email; Chat screenshots\n\nYours faithfully,\n\nPriya Singh\n```\n\n**Before you send it**\n\nRead it and correct anything wrong. Email it to the seller and the platform's grievance officer, and send it by registered post if you have their address. Keep proof of sending. Attach: order email, chat screenshots. If there's no proper reply within 15 days, contact the National Consumer Helpline or file your complaint at e-jagriti.gov.in.\n\n_This is legal information, not legal advice. If anything is unclear, or the other side threatens you, contact your District Legal Services Authority for free legal help._",
+      "alerts": [],
+      "case_after": {
+        "in_scope": true,
+        "problem_type": "not_delivered",
+        "product": "mixer grinder",
+        "platform": "Flipkart",
+        "seller": "HomeKart",
+        "order_id": "OD1234567890",
+        "invoice_number": null,
+        "order_date": "2026-08-02",
+        "delivery_date": null,
+        "amount_paid": 3499,
+        "complained_to_platform": true,
+        "complaint_date": "2026-08-10",
+        "platform_response": "closed the ticket",
+        "relief_wanted": null,
+        "evidence": [
+          "order email",
+          "chat screenshots"
+        ],
+        "user_district": "Lucknow",
+        "user_state": "Uttar Pradesh",
+        "complainant_name": "Priya Singh",
+        "complainant_address": "4 MG Road, Lucknow, Uttar Pradesh",
+        "fraud_suspected": null
+      },
+      "stage_after": "done"
+    }
+  ]
+}

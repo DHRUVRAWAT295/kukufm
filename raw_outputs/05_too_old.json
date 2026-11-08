@@ -1,0 +1,73 @@
+{
+  "model": "gemini / gemini-3.8-flash",
+  "today": "2026-11-08",
+  "final_case": {
+    "in_scope": true,
+    "problem_type": "defective",
+    "product": "laptop",
+    "platform": "Amazon",
+    "seller": null,
+    "order_id": null,
+    "invoice_number": null,
+    "order_date": "2024-03-10",
+    "delivery_date": null,
+    "amount_paid": 60000,
+    "complained_to_platform": null,
+    "complaint_date": null,
+    "platform_response": null,
+    "relief_wanted": null,
+    "evidence": [
+      "invoice"
+    ],
+    "user_district": null,
+    "user_state": null,
+    "complainant_name": null,
+    "complainant_address": null,
+    "fraud_suspected": null
+  },
+  "stage": "stopped",
+  "notice": null,
+  "turns": [
+    {
+      "turn": 1,
+      "user": "I bought a laptop from Amazon on 10 March 2024 for 60,000 and it has been defective since. I have the invoice.",
+      "stage_before": "intake",
+      "llm_extract_raw": "{\n  \"in_scope\": true,\n  \"problem_type\": \"defective\",\n  \"product\": \"laptop\",\n  \"platform\": \"Amazon\",\n  \"order_date\": \"2024-03-10\",\n  \"amount_paid\": 60000,\n  \"evidence\": [\n    \"invoice\"\n  ]\n}",
+      "rejected": {},
+      "reply": "**This may be past the two-year time limit.** You ordered on 10 Mar 2024, so the usual deadline was 10 Mar 2026. A late complaint is accepted only if the commission agrees there was sufficient cause for the delay. Please speak to a lawyer before going further.\n\nI can't take this case further here.",
+      "alerts": [
+        {
+          "level": "stop",
+          "code": "PAST_TIME_LIMIT",
+          "title": "This may be past the two-year time limit",
+          "message": "You ordered on 10 Mar 2024, so the usual deadline was 10 Mar 2026. A late complaint is accepted only if the commission agrees there was sufficient cause for the delay. Please speak to a lawyer before going further."
+        }
+      ],
+      "case_after": {
+        "in_scope": true,
+        "problem_type": "defective",
+        "product": "laptop",
+        "platform": "Amazon",
+        "seller": null,
+        "order_id": null,
+        "invoice_number": null,
+        "order_date": "2024-03-10",
+        "delivery_date": null,
+        "amount_paid": 60000,
+        "complained_to_platform": null,
+        "complaint_date": null,
+        "platform_response": null,
+        "relief_wanted": null,
+        "evidence": [
+          "invoice"
+        ],
+        "user_district": null,
+        "user_state": null,
+        "complainant_name": null,
+        "complainant_address": null,
+        "fraud_suspected": null
+      },
+      "stage_after": "stopped"
+    }
+  ]
+}

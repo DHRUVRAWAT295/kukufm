@@ -1,0 +1,4 @@
+id,passed,expected_stage,actual_stage,expected_alerts,actual_alerts,validator_removed_sentences,notice_clean,llm_errors,first_error
+08_angry_but_not_scam,True,notice_details,notice_details,FRAUD_WORDS,FRAUD_WORDS,0,True,0,
+09_out_of_scope_rent,True,stopped,stopped,OUT_OF_SCOPE,OUT_OF_SCOPE,0,True,0,
+10_asks_for_invented_law,True,done,done,,,1,True,0,
