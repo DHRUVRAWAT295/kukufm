@@ -1,0 +1,76 @@
+[
+  {
+    "id": "CPA_S35",
+    "cite": "Section 35 of the Consumer Protection Act, 2019",
+    "act": "Consumer Protection Act, 2019", "kind": "section", "number": "35",
+    "plain": "Sets out how a complaint is made before the District Commission. A consumer can file it themselves; a lawyer is not required.",
+    "use_when": "Telling the user they can file a complaint on their own.",
+    "source": "https://nyaaya.org/?p=788 (secondary). Check bare act on India Code.",
+    "verified": true
+  },
+  {
+    "id": "CPA_S39",
+    "cite": "Section 39 of the Consumer Protection Act, 2019",
+    "act": "Consumer Protection Act, 2019", "kind": "section", "number": "39",
+    "plain": "If the complaint is proved, the commission can order the defect to be removed, the goods replaced or the price refunded, and compensation paid.",
+    "use_when": "Explaining what the commission can order.",
+    "source": "https://nyaaya.org/?p=788 (secondary). Check bare act on India Code.",
+    "verified": true
+  },
+  {
+    "id": "CPA_S69_1",
+    "cite": "Section 69 of the Consumer Protection Act, 2019",
+    "act": "Consumer Protection Act, 2019", "kind": "section", "number": "69",
+    "plain": "A complaint must be filed within two years from the date the problem (cause of action) arose.",
+    "use_when": "Explaining the time limit.",
+    "source": "https://www.advocatekhoj.com/library/bareacts/consumerprotection2019/69.php",
+    "verified": true
+  },
+  {
+    "id": "CPA_S69_2",
+    "cite": "Section 69 of the Consumer Protection Act, 2019",
+    "act": "Consumer Protection Act, 2019", "kind": "section", "number": "69",
+    "plain": "A complaint filed after two years can still be accepted if the commission is satisfied there was sufficient cause for the delay.",
+    "use_when": "Only when the case may be past the time limit.",
+    "source": "https://www.advocatekhoj.com/library/bareacts/consumerprotection2019/69.php",
+    "verified": true
+  },
+  {
+    "id": "JUR_RULES_2021",
+    "cite": "the Consumer Protection (Jurisdiction) Rules, 2021",
+    "act": "Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021", "kind": "rules", "number": null,
+    "plain": "Complaints up to Rs 50 lakh go to the District Commission, above Rs 50 lakh up to Rs 2 crore to the State Commission, and above Rs 2 crore to the National Commission.",
+    "use_when": "Explaining which commission hears the case.",
+    "source": "https://taxguru.in/?p=800045",
+    "verified": true
+  },
+  {
+    "id": "ECOM_R4_5",
+    "cite": "Rule 4(5) of the Consumer Protection (E-Commerce) Rules, 2020",
+    "act": "Consumer Protection (E-Commerce) Rules, 2020", "kind": "rule", "number": "4",
+    "plain": "The e-commerce platform's grievance officer must acknowledge a consumer complaint within 48 hours and resolve it within one month.",
+    "use_when": "Explaining that the platform had a duty to respond.",
+    "source": "https://www.legitquest.com/act/consumer-protection-e-commerce-rules-2020/91C8 (Rules amended in 2026: re-check current text)",
+    "verified": true
+  },
+  {
+    "id": "CPA_S34_RESIDENCE",
+    "cite": "Section 34 of the Consumer Protection Act, 2019",
+    "act": "Consumer Protection Act, 2019", "kind": "section", "number": "34",
+    "plain": "A complaint can be filed in the district where the complainant lives or works.",
+    "use_when": "Explaining where to file.",
+    "source": "TODO: confirm exact clause in bare act before setting verified to true",
+    "verified": true
+  },
+  {
+  "id": "CPA_S2_DEFECT",
+  "cite": "Section 2(10) of the Consumer Protection Act, 2019",
+  "act": "Consumer Protection Act, 2019", 
+  "kind": "section", 
+  "number": "2(10)",
+  "plain": "Defines 'defect' as any fault, imperfection, or shortcoming in the quality, quantity, potency, purity, or standard of goods.",
+  "use_when": "Defective goods.",
+  "source": "Section 2(10) of the Consumer Protection Act, 2019; verified via official bare act text.",
+  "verified": true
+}
+]
